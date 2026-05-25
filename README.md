@@ -11,13 +11,18 @@ git clone https://github.com/fadeaway-ShineLin/ControlRAG-QA.git
 cd ControlRAG-QA
 pip install -r requirements.txt
 copy .env.example .env
-python rag_demo.py
 ```
 
-然后在 `.env` 文件中填写自己的 DashScope API Key：
+然后打开 `.env` 文件，填写自己的 DashScope API Key：
 
 ```env
 DASHSCOPE_API_KEY=your_dashscope_api_key_here
+```
+
+配置完成后，再启动 RAG 问答系统：
+
+```bash
+python rag_demo.py
 ```
 
 启动后在浏览器中打开终端显示的 Gradio 地址，即可使用系统。
