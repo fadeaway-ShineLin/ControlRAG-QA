@@ -2,6 +2,21 @@
 
 本项目是一个面向《自动控制原理》课程的检索增强生成（Retrieval-Augmented Generation, RAG）问答系统。系统先从结构化课程知识库中检索相关知识条目，再将检索结果、用户问题和回答规则共同构造成 Prompt，调用 `qwen-plus` 生成答案，并在前端展示回答内容和依据来源。
 
+![系统界面示例](docs/system_demo.png)
+
+## 快速开始
+
+```bash
+git clone https://github.com/fadeaway-ShineLin/ControlRAG-QA.git
+cd ControlRAG-QA
+pip install -r requirements.txt
+copy .env.example .env
+python rag_demo.py
+
+然后在 .env 文件中填写自己的 DashScope API Key：
+DASHSCOPE_API_KEY=your_dashscope_api_key_here
+启动后在浏览器中打开终端显示的 Gradio 地址，即可使用系统。
+
 ## 项目功能
 
 - 构建包含 71 条知识点的自动控制原理结构化知识库
