@@ -7,7 +7,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/fadeaway-ShineLin/ControlRAG-QA.git
+git clone https://github.com/fadeaway-Shinelinn/ControlRAG-QA.git
 cd ControlRAG-QA
 pip install -r requirements.txt
 copy .env.example .env
