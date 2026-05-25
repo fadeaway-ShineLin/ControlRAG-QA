@@ -1,0 +1,7 @@
+gradio
+openai
+python-dotenv
+chromadb
+sentence-transformers
+jieba
+openpyxl
