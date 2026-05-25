@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Local vector database and model cache
+chroma_db/
+models/
+
+# Build / packaged files
+build/
+dist/
+_internal/
+*.spec
+*.exe
+*.zip
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
